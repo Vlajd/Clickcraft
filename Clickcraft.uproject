@@ -7,18 +7,17 @@
 		{
 			"Name": "Clickcraft",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG"
+			]
 		}
 	],
 	"Plugins": [
 		{
-			"Name": "Bridge",
+			"Name": "RuntimeImageLoader",
 			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e8d4771b882343199acaf995c32a5fea"
 		}
 	],
 	"TargetPlatforms": [

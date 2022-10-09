@@ -25,3 +25,4 @@ TArray<FString> AClickcraftGameModeBase::GetFilenames()
 	}
 	return output;
 }
+
